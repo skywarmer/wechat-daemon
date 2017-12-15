@@ -11,4 +11,4 @@ wechatd_CODESIGN_FLAGS = -SEntitlements.plist
 include $(THEOS_MAKE_PATH)/tool.mk
 
 after install::
-		install.exec "kill -9 wechatd;nohup wechatd &"
+		install.exec "reboot" 
