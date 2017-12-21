@@ -1,4 +1,3 @@
-——————————————————————————————————————————————
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -6,12 +5,10 @@
         <key>KeepAlive</key>
         <true/>
         <key>Label</key>
-        <string>com.chunyu.wechat-daemon</string>
+        <string>com.chunyu.wechatd</string>
         <key>Program</key>
-        <string>/usr/bin/wechatdaemon</string>
+        <string>/usr/bin/wechatd</string>
         <key>RunAtLoad</key>
         <true/>
-	<key>com.apple.springboard.launchapplications</key>
-	<true/>
 </dict>
 </plist>
